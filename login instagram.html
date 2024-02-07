@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            display: grid;
+            align-items: center;
+            justify-content: center;
+            height: 100vh;
+            margin:0 auto;
+        }
+
+        .select-container{
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        select{
+            border: none;
+            background-color: white;
+        }
+
+        .foto {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .logo {
+            width: 200px;
+            margin-bottom: 20px;
+        }
+
+        .login-form {
+            display: grid;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            max-width: 500px;
+            margin: 0 auto;
+        }
+
+        input {
+            padding: 10px;
+            margin-bottom:20px;
+            width: 500px;
+        }
+
+        
+        button {
+            background-color: #3498db;
+            color: #fff;
+            padding: 10px;
+            border: none;
+            cursor: pointer;
+            margin-bottom: 10px;
+            margin-top: 5px;
+        }
+
+        button:hover {
+            background-color: #2980db;
+        }
+
+        .signup-link{
+            text-align:center ;
+        }
+
+        a{
+            text-decoration: none;
+        }
+
+        .atau {
+            display: flex;
+            justify-content: center;
+        }
+
+        p {
+            margin: 0 5px 0 5px;
+        }
+
+        hr {
+            width: 220px;
+        }
+
+        .akun{
+            text-align: center;
+            margin-top: 10px;
+        }
+
+        
+    </style>
+</head>
+<body>
+    <div class="login-container">
+
+        <div class=select-container>
+        <select>
+            <option>Pilih Bahasa</option>
+            <option>Bahasa Indonesia</option>
+            <option>Bahasa English</option>
+            <option>Bahasa Indonesia</option>
+        </select>
+        </div>
+
+    <div class="foto"><img src="huruf instagram.png" alt="keterngan gambar" class="logo" width="200"></div>
+
+    <form action="#" method="post" class="login-form">
+        <p>Masukan nomor ponsel,nama pengguna,atau email anda</p>
+        <input type="text" placeholder="Username" required>
+        <p>Masukkan sandi anda</p>
+        <input type="text" placeholder="Password" required>
+        <button type="submit">Log in</button>
+        <p class="signup-link">Lupa detail Akun Anda? <a href="#">dapatkan bantuan</a></p>
+        <button class="facebook" type="submit">Lanjutkan Sebagai Asep</button>
+    </form>
+
+    <div class="atau">
+        <div>
+            <hr>
+        </div>
+        <p>atau</p>
+        <div>
+            <hr>
+        </div>
+    </div>
+
+    <p class="akun">Tidak punya akun?<a href="#">Daftar</a></p>
+
+
+
+
+    </div>
+
+
+    
+</body>
+</html>
